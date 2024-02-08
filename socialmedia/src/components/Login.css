@@ -1,0 +1,60 @@
+.login-box{
+ 
+
+  height:55vh;
+  width:25%;
+  color:white;
+  background-color: rgb(24, 22, 22);
+  margin-left: 600px;
+  h2{
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  border-radius: 10px;
+}
+h1{
+  text-align: center;
+  padding-left: 50px;
+}
+.user-box{
+  padding-left: 10px;
+  label{
+  margin-bottom: 300px;
+  font-size: 10px;
+  color: #fff;
+  }
+  input{
+    margin-top: 20px;
+    background: transparent;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    font-size: 29px;
+    color:white;
+  }
+}
+.tag{
+  padding-left: 610px;
+  color:white;
+  font-size: 15px;
+  a{
+    color:white;
+  }
+}
+
+
+.bun{
+  border-radius: 7px;
+  margin-top: 20px;
+  font-size: 20px;
+  height:5vh;
+  margin-left: 130px;
+  width:90px;
+  &:hover{
+    opacity: 0.7;
+    cursor: pointer;
+  }
+}
